@@ -1,0 +1,467 @@
+/*
+Theme Name:     INK2012
+Theme URI:      http://www.injectnewkolor.com
+Description:    Child theme for the Twenty Twelve theme for the INK website 
+Author:         Ben Hamilton
+Author URI:     http://www.benhamilton.co.uk
+Template:       twentytwelve
+Version:        0.1.0
+*/
+
+@import url("../twentytwelve/style.css");
+
+
+body .site {
+	position: absolute;
+	box-shadow: 0 0px 0px rgba(100, 100, 100, 0.3);
+	padding-left: 139px;
+	margin-top: 110px;
+}
+body.home {
+	background-image: url('http://www.injectnewkolor.com/wp-content/uploads/2013/04/red-to-pink.png');
+	background-repeat: no-repeat;
+	background-color: white;
+	background-position: -100px -50px;
+}
+body.archive.category.category-artanddesign.category-15, body.single.single-post.category-art-design {
+	background-image: url('http://www.injectnewkolor.com/wp-content/uploads/2013/04/pink-to-purple.png');
+	background-repeat: no-repeat;
+	background-color: white;
+	background-position: -99px -50px;
+}
+body.archive.category.category-music.category-12, body.single.single-post.category-music {
+	background-image: url('http://www.injectnewkolor.com/wp-content/uploads/2013/04/purple-to-blue.png');
+	background-repeat: no-repeat;
+	background-color: white;
+	background-position: -100px -50px;
+}
+body.archive.category.category-fashion.category-9, body.single.single-post.category-fashion {
+	background-image: url('http://www.injectnewkolor.com/wp-content/uploads/2013/04/blue-to-teal.png');
+	background-repeat: no-repeat;
+	background-color: white;
+	background-position: -100px -50px;
+}
+body.archive.category.category-video.category-7, body.single.single-post.category-video {
+	background-image: url('http://www.injectnewkolor.com/wp-content/uploads/2013/04/teal-to-green.png');
+	background-repeat: no-repeat;
+	background-color: white;
+	background-position: -100px -50px;
+}
+body.archive.category.category-photography.category-8, body.single.single-post.category-photography {
+	background-image: url('http://www.injectnewkolor.com/wp-content/uploads/2013/04/green-to-lime.png');
+	background-repeat: no-repeat;
+	background-color: white;
+	background-position: -100px -49px;
+}
+body.archive.category.category-blog.category-16, body.single.single-post.category-blog {
+	background-image: url('http://www.injectnewkolor.com/wp-content/uploads/2013/04/lime-to-orange.png');
+	background-repeat: no-repeat;
+	background-color: white;
+	background-position: -100px -50px;
+}
+.site {
+	background-color: transparent;
+	margin: 0px;
+	max-width: 940px;
+	min-width:940px
+}
+hgroup {
+	display: none;
+}
+
+#buttons {
+	float: right;
+	padding: 5px 30px 5px 0
+}
+#buttons li {
+	float: left;
+	margin: 0 10px 0 5px;
+}
+#button-1 {
+	padding-top: 7px;
+}
+#button-2 {
+	padding-top: 7px;
+	padding-left: 3x;
+	padding-right: 35px;
+}
+#button-3, #button-4 {
+	padding-top: 10px;
+}
+#buttons a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-family: "Futura";
+	font-size: 14pt;
+}
+#buttons a:hover {
+	color: gainsboro;
+}
+#buttons a:active {
+	font-weight: 900;
+}
+.main-navigation {
+	margin-top: 10px;
+}
+form#searchform div {
+	float: right;
+	padding-right: 4px;
+	padding-top: 10px;
+}
+#slider {
+	position: relative;
+	width: 702px;
+	height: 222px;
+	margin-top: 66px;
+	margin-left: 238px;
+}
+#masthead {
+	padding-top: 10px;
+}
+#site-navigation {
+	margin-top: 15px;
+}
+#menu-main-nav {
+	border: 0px;
+}
+.main-navigation li a {
+	color: white;
+	line-height: 10px;
+}
+.main-navigation li a:hover {
+	color: gainsboro;
+}
+.main-navigation .current-menu-item > a, .main-navigation .current-menu-ancestor > a, .main-navigation .current_page_item > a, .main-navigation .current_page_ancestor > a {
+	color: white;
+}
+.main-navigation li {
+	margin: 0 14.9px 0 0px;
+	padding: 5.2px;
+	width: 90.5px;
+	text-align: center;
+}
+#menu-item-25 {
+	background-color: rgb(123,16,57);
+}
+#menu-item-123 {
+	background-color: rgb(224,53,73);
+}
+#menu-item-52 {
+	background-color: rgb(120,88,134);
+}
+#menu-item-35 {
+	background-color: rgb(66,94,122);
+}
+#menu-item-39 {
+	background-color: rgb(62,140,162);
+}
+#menu-item-37 {
+	background-color: rgb(91,192,137);
+}
+#menu-item-124 {
+	background-color: rgb(167,189,85); 
+}
+#menu-item-125 {
+	background-color: rgb(224,53,73);
+	margin: 0px;
+}
+.widget-area {
+	width: 222px;
+}
+.panel {
+	float: left;
+	position: absolute;
+	top: 75.5px;
+	width: 222px;
+	height: 223px;
+	padding: 1px;
+	background-color: white;
+	-webkit-perspective: 600px;
+	-moz-perspective: 600px;
+}
+#hover {
+	width: 100px;
+	height: 100px;
+	-webkit-perspective: 600px;
+	-moz-perspective: 600px;	
+	position: absolute;
+}
+#hover:hover {
+	width: 222px;
+	height: 222px;
+	z-index: 900;
+}
+.hover-item-two {
+	left: 120px;
+	-o-transition: left .4s ease-in-out;
+	-ms-transition: left .4s ease-in-out;
+	-moz-transition: left .4s ease-in-out;
+	-webkit-transition: left .4s ease-in-out;
+	transition: left .4s ease-in-out;
+}
+.hover-item-three {
+	top: 120px;
+	-o-transition: top .4s ease-in-out;
+	-ms-transition: top .4s ease-in-out;
+	-moz-transition: top .4s ease-in-out;
+	-webkit-transition: top .4s ease-in-out;
+	transition: top .4s ease-in-out;
+}
+.hover-item-four {
+	left: 120px;
+	top: 120px;
+	-o-transition: top .4s ease-in-out, left .4s ease-in-out;
+	-ms-transition: top .4s ease-in-out, left .4s ease-in-out;
+	-moz-transition: top .4s ease-in-out, left .4s ease-in-out;
+	-webkit-transition: top .4s ease-in-out, left .4s ease-in-out;
+	transition: top .4s ease-in-out, left .4s ease-in-out;
+}
+.hover-item-two:hover {
+	left: 0px;
+}
+.hover-item-three:hover {
+	top: 0px;
+}
+.hover-item-four:hover {
+	left: 0px;
+	top: 0px;
+}
+.front-left {
+	float: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: inherit;
+	height: inherit;
+	text-align: center;
+	z-index: 960;
+
+	-webkit-transform: rotateX(0deg) rotateY(0deg);
+	-webkit-transform-style: preserve-3d;
+	-webkit-backface-visibility: hidden;
+
+	-moz-transform: rotateX(0deg) rotateY(0deg);
+	-moz-transform-style: preserve-3d;
+	-moz-backface-visibility: hidden;
+
+	-o-transition: all .4s ease-in-out;
+	-ms-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+.back-left {			
+	float: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: inherit;
+	height: inherit;
+	z-index: 950;
+	text-align: center;
+	overflow: hidden;
+
+	-webkit-transform: rotateY(-180deg);
+	-webkit-transform-style: preserve-3d;
+	-webkit-backface-visibility: hidden;
+
+	-moz-transform: rotateY(-180deg);
+	-moz-transform-style: preserve-3d;
+	-moz-backface-visibility: hidden;
+
+	-o-transition: all .4s ease-in-out;
+	-ms-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+#hover:hover .front-left {
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+}
+#hover:hover .back-left {
+	-webkit-transform: rotateX(0deg) rotateY(0deg);
+	-moz-transform: rotateX(0deg) rotateY(0deg);
+}
+.front-right {
+	float: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: inherit;
+	height: inherit;
+	text-align: center;
+	z-index: 960;
+
+	-webkit-transform: rotateX(0deg) rotateY(0deg);
+	-webkit-transform-style: preserve-3d;
+	-webkit-backface-visibility: hidden;
+
+	-moz-transform: rotateX(0deg) rotateY(0deg);
+	-moz-transform-style: preserve-3d;
+	-moz-backface-visibility: hidden;
+
+	-o-transition: all .4s ease-in-out;
+	-ms-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+.back-right {			
+	float: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: inherit;
+	height: inherit;
+	z-index: 950;
+	text-align: center;
+	overflow: hidden;
+
+	-webkit-transform: rotateY(180deg);
+	-webkit-transform-style: preserve-3d;
+	-webkit-backface-visibility: hidden;
+
+	-moz-transform: rotateY(180deg);
+	-moz-transform-style: preserve-3d;
+	-moz-backface-visibility: hidden;
+
+	-o-transition: all .4s ease-in-out;
+	-ms-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+#hover:hover .front-right {
+	-webkit-transform: rotateY(-180deg);
+	-moz-transform: rotateY(-180deg);
+}
+#hover:hover .back-right {
+	z-index: 950;
+	-webkit-transform: rotateX(0deg) rotateY(0deg);
+	-moz-transform: rotateX(0deg) rotateY(0deg);
+}
+.hover-item-one .back-left .inside {
+	overflow: hidden;
+	margin-top: 24px;
+}
+.hover-item-three .back-left .inside {
+	margin-top: 20px;
+}
+.hover-item-two .back-right .inside{
+	margin-top: 35px;
+}
+.inside p {
+	padding-top: 20px;
+	font-size: 50px;
+	color: white;
+}
+.twitter-timeline {
+	height: 210px;
+	margin-top: -35px;
+}
+body.home .front-left, body.home #hover:hover .back-left, body.home .front-right, body.home #hover:hover .back-right {
+	background: rgb(194, 42, 68);
+}
+body.home .back-left, body.home #hover:hover .front-left, body.home .back-right, body.home #hover:hover .front-right {
+	background: rgb(124, 15, 58);
+}
+body.archive.category.category-artanddesign.category-15 .front-left, body.archive.category.category-artanddesign.category-15 #hover:hover .back-left, body.archive.category.category-artanddesign.category-15 .front-right, body.archive.category.category-artanddesign.category-15 #hover:hover .back-right, body.single.single-post.category-artanddesign .front-left, body.single.single-post.category-artanddesign #hover:hover .back-left, body.single.single-post.category-artanddesign .front-right, body.single.single-post.category-artanddesign #hover:hover .back-right {
+	background: rgb(175, 75, 100);
+}
+body.archive.category.category-artanddesign.category-15 .back-left, body.archive.category.category-artanddesign.category-15 #hover:hover .front-left, body.archive.category.category-artanddesign.category-15 .back-right, body.archive.category.category-artanddesign.category-15 #hover:hover .front-right, body.single.single-post.category-artanddesign .back-left, body.single.single-post.category-artanddesign #hover:hover .front-left, body.single.single-post.category-artanddesign .back-right, body.single.single-post.category-artanddesign #hover:hover .front-right  {
+	background: rgb(176, 65, 81);
+}
+body.archive.category.category-music.category-12 .front-left, body.archive.category.category-music.category-12 #hover:hover .back-left, body.archive.category.category-music.category-12 .front-right, body.archive.category.category-music.category-12 #hover:hover .back-right, body.single.single-post.category-music .front-left, body.single.single-post.category-music #hover:hover .back-left, body.single.single-post.category-music .front-right, body.single.single-post.category-music #hover:hover .back-right {
+	background: rgb(99, 71, 137);
+}
+body.archive.category.category-music.category-12 .back-left, body.archive.category.category-music.category-12 #hover:hover .front-left, body.archive.category.category-music.category-12 .back-right, body.archive.category.category-music.category-12 #hover:hover .front-right, body.single.single-post.category-music .back-left, body.single.single-post.category-music #hover:hover .front-left, body.single.single-post.category-music .back-right, body.single.single-post.category-music #hover:hover .front-right {
+	background: rgb(86, 74, 129);
+}
+body.archive.category.category-fashion.category-9 .front-left, body.archive.category.category-fashion.category-9 #hover:hover .back-left, body.archive.category.category-fashion.category-9 .front-right, body.archive.category.category-fashion.category-9 #hover:hover .back-right, body.single.single-post.category-fashion .front-left, body.single.single-post.category-fashion #hover:hover .back-left, body.single.single-post.category-fashion .front-right, body.single.single-post.category-fashion #hover:hover .back-right {
+	background: rgb(48, 77, 104);
+}
+body.archive.category.category-fashion.category-9 .back-left, body.archive.category.category-fashion.category-9 #hover:hover .front-left, body.archive.category.category-fashion.category-9 .back-right, body.archive.category.category-fashion.category-9 #hover:hover .front-right, body.single.single-post.category-fashion .back-left, body.single.single-post.category-fashion #hover:hover .front-left, body.single.single-post.category-fashion .back-right, body.single.single-post.category-fashion #hover:hover .front-right {
+	background: rgb(45, 104, 129);
+}
+body.archive.category.category-video.category-7 .front-left, body.archive.category.category-video.category-7 #hover:hover .back-left, body.archive.category.category-video.category-7 .front-right, body.archive.category.category-video.category-7 #hover:hover .back-right, body.single.single-post.category-video .front-left, body.single.single-post.category-video #hover:hover .back-left, body.single.single-post.category-video .front-right, body.single.single-post.category-video #hover:hover .back-right {
+	background: rgb(42, 121, 146);
+}
+body.archive.category.category-video.category-7 .back-left, body.archive.category.category-video.category-7 #hover:hover .front-left, body.archive.category.category-video.category-7 .back-right, body.archive.category.category-video.category-7 #hover:hover .front-right, body.single.single-post.category-video .back-left, body.single.single-post.category-video #hover:hover .front-left, body.single.single-post.category-video .back-right, body.single.single-post.category-video #hover:hover .front-right {
+	background: rgb(74, 157, 154);
+}
+body.archive.category.category-photography.category-8 .front-left, body.archive.category.category-photography.category-8 #hover:hover .back-left, body.archive.category.category-photography.category-8 .front-right, body.archive.category.category-photography.category-8 #hover:hover .back-right, body.single.single-post.category-photography .front-left, body.single.single-post.category-photography #hover:hover .back-left, body.single.single-post.category-photography .front-right, body.single.single-post.category-photography #hover:hover .back-right {
+	background: rgb(140, 193, 80);
+}
+body.archive.category.category-photography.category-8 .back-left, body.archive.category.category-photography.category-8 #hover:hover .front-left, body.archive.category.category-photography.category-8 .back-right, body.archive.category.category-photography.category-8 #hover:hover .front-right, body.single.single-post.category-photography .back-left, body.single.single-post.category-photography #hover:hover .front-left, body.single.single-post.category-photography .back-right, body.single.single-post.category-photography #hover:hover .front-right {
+	background: rgb(73, 180, 177);
+}
+body.archive.category.category-blog.category-16 .front-left, body.archive.category.category-blog.category-16 #hover:hover .back-left, body.archive.category.category-blog.category-16 .front-right, body.archive.category.category-blog.category-16 #hover:hover .back-right, body.single.single-post.category-blog .front-left, body.single.single-post.category-blog #hover:hover .back-left, body.single.single-post.category-blog .front-right, body.single.single-post.category-blog #hover:hover .back-right {
+	background: rgb(210, 175, 71);
+}
+body.archive.category.category-blog.category-16 .back-left, body.archive.category.category-blog.category-16 #hover:hover .front-left, body.archive.category.category-blog.category-16 .back-right, body.archive.category.category-blog.category-16 #hover:hover .front-right, body.single.single-post.category-blog .back-left, body.single.single-post.category-blog #hover:hover .front-left, body.single.single-post.category-blog .back-right, body.single.single-post.category-blog #hover:hover .front-right {
+	background: rgb(221, 163, 78);
+}
+.entry-content img, .comment-content img, .widget img, img.header-image, .author-avatar img, img.wp-post-image {
+	border-radius: 0px;
+	box-shadow: none;
+	margin: 0 0 5px 5px;
+}
+body.template-front-page .site-content, body.single-attachment .site-content, body.full-width .site-content {
+	width: 960px;
+	position: relative;
+	left: -10px;
+	margin: 0px;
+}
+body.home .site-content article, body.archive .site-content article {
+	width: 212px;
+	float: left;
+	margin: 5px 9px 0 9px;
+	padding: 5px;
+	border-bottom: 0px;
+}
+body.single .site-content article {
+	width: 940px;
+	margin: 0 0 0 10px;
+}
+.entry-header {
+	margin: 0 0 5px 0;
+}
+.entry-summary p {
+	margin: 0 0 5px 0;
+}
+footer.entry-meta {
+	margin: 0 0 0 0;
+	font-size: 10px;
+	background-color: whiteSmoke;
+	padding: 5px;
+}
+body.home .comments-link, body.archive .comments-link {
+	display: none;
+}
+.ngg-slideshow {
+	float: left;
+	margin: 0 20px 20px 0;
+}
+.entry-title a {
+	color: grey;
+}
+body.single .wp-post-image {
+	display: none;
+}
+#slider .wp-post-image {
+	display: block;
+}
+body.home .post .wp-post-image, body.archive .post .wp-post-image {
+	float: right;
+}
+.page-id-65 #slider, .page-id-65 .panel, .page-id-67 #slider, .page-id-67 .panel {
+	display: none;
+}
+.page-id-65, .page-id-67 {
+	background-image:  url('http://www.injectnewkolor.com/wp-content/uploads/2013/04/IMG_0082.jpg');
+}
+.page-id-65 .nav-menu, .page-id-67 .nav-menu {
+	margin-top: 20px;
+}
